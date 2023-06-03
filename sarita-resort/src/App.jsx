@@ -1,15 +1,16 @@
-import Navbar from "./components/Navbar"
-
+import { Box } from "@chakra-ui/react";
+import AllRoutes from "./Router/AllRoutes";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
-
-
   return (
-    <div>
-    <Navbar/>
-      <h1>Hello, Chakra UI!</h1>
-    </div>
-  )
+    <Box>
+      <Navbar />
+      <AllRoutes />
+      <Footer/>
+    </Box>
+  );
 }
 
-export default App
+export default App;
