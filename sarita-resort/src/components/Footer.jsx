@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box position={"sticky"} bottom={0} bg={"pink"} width={"100%"}>
+    <Box bg={"pink"} width={"100%"}>
         <Center >
             <Text>THIS IS FOOTER</Text>
         </Center>
