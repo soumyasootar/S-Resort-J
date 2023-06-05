@@ -3,9 +3,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box bg={"pink"} width={"100%"}>
+    <Box bg={"dark"} width={"100%"}>
         <Center >
-            <Text>THIS IS FOOTER</Text>
+            <Text>{new Date().toLocaleDateString()}</Text>
         </Center>
     </Box>
   )
